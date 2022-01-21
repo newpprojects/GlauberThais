@@ -1,0 +1,327 @@
+body
+    // font-family: 'Yesteryear', cursive
+    font-family: 'Parisienne', cursive
+    font-size: 16px
+    box-sizing: border-box
+
+// Breakpoints
+@mixin breakpoint($name) 
+  @if $name == 'medium'
+   @media (min-width: 768px) 
+    @content
+ 
+  @else if $name == 'large' 
+    @media (min-width: 1600px)  
+     @content
+.lovers_one
+    position: relative
+.lovers
+    width: 100%
+    // height: 70vh
+    object-fit: cover
+    object-position: top
+    
+// .color
+//     position: absolute
+//     top: 0
+//     width: 100%
+//     height: 70vh
+//     // background-color: rgb(236 195 225 / 50%)
+//     h1
+//         font-family: 'Yesteryear', cursive
+//         color: white 
+//         text-align: center
+//         // font-size: clamp(7rem , 7rem , 10rem )
+//         font-size: 2.5rem
+//     h2
+//         font-size: 20px
+//         color: white
+
+// .img
+//     filter: blur(10px)
+.begin
+    position: absolute
+    // top: 50px
+    // bottom: auto
+    left: 0
+    right: 0
+    margin: auto
+    text-align: center
+    // font-size: 1.5rem
+    font-family: 'Yesteryear', cursive
+    color: white
+    top: 50%
+    transform: translateY(-50%)
+.begin
+    @include breakpoint(medium)
+        font-size: 3rem
+        // top: 160px
+        // left: 0
+        // right: 0
+
+.begin
+    @include breakpoint(large)
+        font-size: 5rem
+        // top: 350px
+
+.married
+    margin-bottom: 10px
+
+.married
+    @include breakpoint(medium)
+        margin-bottom: 20px
+       
+
+.first_title
+    font-size: 1.5rem
+
+.first_title
+    @include breakpoint(medium)
+        font-size: 4rem
+
+.first_title
+    @include breakpoint(large)
+        font-size: 7rem
+
+.date
+    margin: 10px 0 10px 0
+
+.date
+    @include breakpoint(medium)
+        margin: 20px 0 20px 0
+
+.day
+    margin-top: 5px
+
+.about_us
+    font-size: 2rem
+    margin: 30px 10px 0 0
+    
+
+    h1
+        font-size: 4rem
+        text-align: center
+        margin-bottom: 20px
+
+    p
+        font-family: 'Montserrat'
+        font-weight: 300
+        margin-left: 10px
+
+.about_us
+    @include breakpoint(medium)
+        margin: 50px 15px 50px 15px
+        p
+            margin-top: 140px
+
+.about_us
+    @include breakpoint(large)
+        margin: 70px 80px 70px 80px
+        font-size: 3rem
+        p
+            margin-top: 250px
+        h1
+            font-size: 5rem
+
+.monogram
+    position: relative
+    text-align: center
+    margin-bottom: 130px
+    img
+        margin-left: auto
+        margin-right: auto
+
+.monogram
+    @include breakpoint(large)
+        img
+            width: 504px
+   
+.second_title
+    margin: auto
+    margin-top: -180px
+    margin-bottom: 100px
+
+.second_title
+    @include breakpoint(large)
+        margin-top: -280px
+    
+.present_list
+    font-size: 2rem
+    margin: 30px 10px 30px 10px
+    // text-align: center
+
+    h1
+        text-align: center
+        margin-bottom: 20px
+        font-size: 3.5rem
+
+    button
+        width: 220px
+        border-radius: 12px
+        box-sizing: border-box
+        height: 64px
+        margin-top: 20px
+        font-size: 1rem
+        cursor: pointer
+        background-color: rgba(236, 195, 225, 0.5)
+
+    ul
+        // width: 100%
+        height: 100%
+        border: solid 1px
+        border-radius: 8px
+        text-align: left
+        // display: list-item
+
+    li
+        font-family: 'Montserrat'
+        font-weight: 200
+        font-size: 2rem
+        margin-bottom: 5px
+        list-style-type: disc
+        margin-left: 40px
+        
+    p
+        font-family: 'Montserrat'
+        font-weight: 200
+        margin-bottom: 30px
+
+.present_list
+    @include breakpoint(medium)
+        margin: 50px 15px 50px 15px
+
+.present_list
+    @include breakpoint(large)
+        margin: 70px 80px 70px 80px
+        font-size: 3rem
+        h1
+            font-size: 4.5rem
+            margin-bottom: 40px
+        ul
+            padding: 15px 0 15px 15px
+        li 
+            font-size: 3rem
+    
+.gifts_receive
+    font-size: 2rem
+    margin: 0 0 30px 10px
+    text-align: center
+    
+    h1
+        font-size: 3.5rem
+        margin-bottom: 10px
+
+    button
+        width: 220px
+        border-radius: 12px
+        box-sizing: border-box
+        height: 64px
+        margin: 20px 0 10px 0
+        font-size: 1rem
+        cursor: pointer
+        background-color: rgba(236, 195, 225, 0.5)
+
+    img
+        display: block
+        margin: 0 auto
+
+.gifts_receive
+    @include breakpoint(medium)
+        margin: 0 15px 50px 15px
+        button
+            margin-top: 40px
+
+.gifts_receive
+    @include breakpoint(large)
+        margin: 0 80px 57px 80px
+        h1
+            font-size: 4.5rem
+            margin-bottom: 50px
+        img
+            width: 400px
+        button
+            width: 420px
+            height: 94px
+            margin-top: 70px
+            font-size: 2rem
+
+
+.localization
+    font-size: 2rem
+    margin: 0 10px 30px 10px
+    text-align: center
+
+    h1
+        text-align: center
+        margin-bottom: 20px
+        font-size: 3.5rem
+
+    img
+        margin-top: 20px
+
+    iframe
+        width: 304px
+        height: 228px
+        margin-top: 20px
+    
+    p
+        font-family: 'Montserrat'
+        font-weight: 200
+
+.localization
+    @include breakpoint(medium)
+        margin: 0 15px 50px 15px
+        img
+            margin-top: 30px
+        iframe
+            margin-top: 30px
+
+.localization
+    @include breakpoint(large)
+        margin: 0 80px 80px 80px
+        font-size: 3rem
+        h1
+            font-size: 4.5rem
+        img
+            margin-top: 40px
+            width: 504px
+            height: 428px
+        iframe
+            margin-top: 40px
+            width: 504px
+            height: 428px
+
+.presence
+    font-size: 2.5rem
+    margin: 30px 0 30px 10px
+    text-align: center
+
+    h1
+        text-align: center
+        margin-bottom: 20px
+        font-size: 3.5rem
+
+    button
+        width: 220px
+        border-radius: 12px
+        box-sizing: border-box
+        height: 64px
+        margin-top: 20px
+        font-size: 1rem
+        cursor: pointer
+        background-color: rgba(236, 195, 225, 0.5)
+
+.presence
+    @include breakpoint(medium)
+        margin: 0 15px 50px 15px
+
+.presence
+    @include breakpoint(large)
+        margin: 0 80px 70px 80px
+        h1
+            font-size: 4.5rem
+        button
+            width: 420px
+            height: 94px
+            margin-top: 70px
+            font-size: 2rem

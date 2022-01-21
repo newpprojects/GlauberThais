@@ -1,0 +1,355 @@
+body {
+  font-family: "Parisienne", cursive;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.lovers_one {
+  position: relative;
+}
+
+.lovers {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.begin {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  font-family: "Yesteryear", cursive;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+  .begin {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .begin {
+    font-size: 5rem;
+  }
+}
+
+.married {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .married {
+    margin-bottom: 20px;
+  }
+}
+
+.first_title {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .first_title {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .first_title {
+    font-size: 7rem;
+  }
+}
+
+.date {
+  margin: 10px 0 10px 0;
+}
+
+@media (min-width: 768px) {
+  .date {
+    margin: 20px 0 20px 0;
+  }
+}
+
+.day {
+  margin-top: 5px;
+}
+
+.about_us {
+  font-size: 2rem;
+  margin: 30px 10px 0 0;
+}
+.about_us h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about_us p {
+  font-family: "Montserrat";
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .about_us {
+    margin: 50px 15px 50px 15px;
+  }
+  .about_us p {
+    margin-top: 140px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .about_us {
+    margin: 70px 80px 70px 80px;
+    font-size: 3rem;
+  }
+  .about_us p {
+    margin-top: 250px;
+  }
+  .about_us h1 {
+    font-size: 5rem;
+  }
+}
+
+.monogram {
+  position: relative;
+  text-align: center;
+  margin-bottom: 130px;
+}
+.monogram img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1600px) {
+  .monogram img {
+    width: 504px;
+  }
+}
+
+.second_title {
+  margin: auto;
+  margin-top: -180px;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 1600px) {
+  .second_title {
+    margin-top: -280px;
+  }
+}
+
+.present_list {
+  font-size: 2rem;
+  margin: 30px 10px 30px 10px;
+}
+.present_list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+}
+.present_list button {
+  width: 220px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  height: 64px;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgba(236, 195, 225, 0.5);
+}
+.present_list ul {
+  height: 100%;
+  border: solid 1px;
+  border-radius: 8px;
+  text-align: left;
+}
+.present_list li {
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  list-style-type: disc;
+  margin-left: 40px;
+}
+.present_list p {
+  font-family: "Montserrat";
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .present_list {
+    margin: 50px 15px 50px 15px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .present_list {
+    margin: 70px 80px 70px 80px;
+    font-size: 3rem;
+  }
+  .present_list h1 {
+    font-size: 4.5rem;
+    margin-bottom: 40px;
+  }
+  .present_list ul {
+    padding: 15px 0 15px 15px;
+  }
+  .present_list li {
+    font-size: 3rem;
+  }
+}
+
+.gifts_receive {
+  font-size: 2rem;
+  margin: 0 0 30px 10px;
+  text-align: center;
+}
+.gifts_receive h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+.gifts_receive button {
+  width: 220px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  height: 64px;
+  margin: 20px 0 10px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgba(236, 195, 225, 0.5);
+}
+.gifts_receive img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .gifts_receive {
+    margin: 0 15px 50px 15px;
+  }
+  .gifts_receive button {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .gifts_receive {
+    margin: 0 80px 57px 80px;
+  }
+  .gifts_receive h1 {
+    font-size: 4.5rem;
+    margin-bottom: 50px;
+  }
+  .gifts_receive img {
+    width: 400px;
+  }
+  .gifts_receive button {
+    width: 420px;
+    height: 94px;
+    margin-top: 70px;
+    font-size: 2rem;
+  }
+}
+
+.localization {
+  font-size: 2rem;
+  margin: 0 10px 30px 10px;
+  text-align: center;
+}
+.localization h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+}
+.localization img {
+  margin-top: 20px;
+}
+.localization iframe {
+  width: 304px;
+  height: 228px;
+  margin-top: 20px;
+}
+.localization p {
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+
+@media (min-width: 768px) {
+  .localization {
+    margin: 0 15px 50px 15px;
+  }
+  .localization img {
+    margin-top: 30px;
+  }
+  .localization iframe {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .localization {
+    margin: 0 80px 80px 80px;
+    font-size: 3rem;
+  }
+  .localization h1 {
+    font-size: 4.5rem;
+  }
+  .localization img {
+    margin-top: 40px;
+    width: 504px;
+    height: 428px;
+  }
+  .localization iframe {
+    margin-top: 40px;
+    width: 504px;
+    height: 428px;
+  }
+}
+
+.presence {
+  font-size: 2.5rem;
+  margin: 30px 0 30px 10px;
+  text-align: center;
+}
+.presence h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+}
+.presence button {
+  width: 220px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  height: 64px;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgba(236, 195, 225, 0.5);
+}
+
+@media (min-width: 768px) {
+  .presence {
+    margin: 0 15px 50px 15px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .presence {
+    margin: 0 80px 70px 80px;
+  }
+  .presence h1 {
+    font-size: 4.5rem;
+  }
+  .presence button {
+    width: 420px;
+    height: 94px;
+    margin-top: 70px;
+    font-size: 2rem;
+  }
+}
