@@ -3,6 +3,7 @@ body {
   font-size: 16px;
   line-height: 40px;
   box-sizing: border-box;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -23,6 +24,7 @@ body {
 
 .lovers {
   width: 100%;
+  object-fit: cover;
   object-position: top;
 }
 
