@@ -81,7 +81,7 @@ body {
 }
 
 .date {
-  margin: 10px 0 10px 0;
+  margin: 10px 0 15px 0;
 }
 
 @media (min-width: 768px) {
@@ -245,6 +245,10 @@ body {
   }
 }
 
+.objects {
+  color: red;
+}
+
 .gifts_receive {
   margin: 0 0 30px 10px;
   text-align: center;
@@ -269,7 +273,6 @@ body {
 }
 .gifts_receive p {
   font-family: "Montserrat";
-  color: red;
 }
 
 @media (min-width: 768px) {
