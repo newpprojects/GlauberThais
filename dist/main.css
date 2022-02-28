@@ -1,0 +1,1364 @@
+@font-face {
+  font-family: "fontMimos";
+  src: url("BANANASP.TTF");
+}
+body {
+  font-family: "Arial", Helvetica, sans-serif;
+  line-height: 160%;
+  font-size: 16px;
+  color: #363636;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+.begin {
+  background-color: #FFEBF1;
+  display: flex;
+}
+.begin img {
+  width: 50px;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {
+  .begin img {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .begin img {
+    width: 220px;
+  }
+}
+
+.titleOne {
+  font-family: "fontMimos";
+  margin: auto;
+  color: #f47ab6;
+  font-size: 35px;
+  padding: 10px;
+  line-height: 0px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .titleOne {
+    font-size: 55px;
+    padding: 30px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .titleOne {
+    font-size: 125px;
+    padding: 80px;
+  }
+}
+
+.personal {
+  font-family: "Arial", Helvetica, sans-serif;
+  color: #363636;
+  font-size: 25px;
+  margin-left: 17px;
+}
+
+@media (min-width: 768px) {
+  .personal {
+    font-size: 40px;
+    margin: 5px 0 0 27px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .personal {
+    font-size: 85px;
+    margin: 70px 0 0 63px;
+  }
+}
+
+.sectionCaneca, .sectionGift, .sectionSqueeze, .sectionPaper, .sectionInvite, .sectionShirt, .sectionMDF, .sectionPlanner {
+  margin: 30px 10px 30px 10px;
+}
+
+@media (min-width: 768px) {
+  .sectionCaneca, .sectionGift, .sectionSqueeze, .sectionPaper, .sectionInvite, .sectionShirt, .sectionMDF, .sectionPlanner {
+    display: flex;
+    justify-content: center;
+    margin: 60px 15px 40px 15px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .sectionCaneca, .sectionGift, .sectionSqueeze, .sectionPaper, .sectionInvite, .sectionShirt, .sectionMDF, .sectionPlanner {
+    margin: 150px 30px 100px 30px;
+  }
+}
+
+.backFirst, .backFirst1, .backFirst2, .backFirst3, .backFirst4, .backFirst5, .backFirst6 {
+  width: 135px;
+  height: 135px;
+  background-color: #FFEBF1;
+  border-radius: 50%;
+  margin: auto auto 15px auto;
+}
+.backFirst img, .backFirst1 img, .backFirst2 img, .backFirst3 img, .backFirst4 img, .backFirst5 img, .backFirst6 img {
+  width: 115px;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {
+  .backFirst, .backFirst1, .backFirst2, .backFirst3, .backFirst4, .backFirst5, .backFirst6 {
+    width: 200px;
+    height: 200px;
+    margin: 0 80px 40px 15px;
+  }
+  .backFirst img, .backFirst1 img, .backFirst2 img, .backFirst3 img, .backFirst4 img, .backFirst5 img, .backFirst6 img {
+    width: 150px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .backFirst, .backFirst1, .backFirst2, .backFirst3, .backFirst4, .backFirst5, .backFirst6 {
+    width: 500px;
+    height: 500px;
+    margin: 70px 80px 0 15px;
+  }
+  .backFirst img, .backFirst1 img, .backFirst2 img, .backFirst3 img, .backFirst4 img, .backFirst5 img, .backFirst6 img {
+    width: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  .textCaneca {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .textCaneca {
+    max-width: 750px;
+  }
+}
+
+.titleS, .titleSqueeze, .titleIvite, .titleShirt, .titlePlanner {
+  font-family: "fontMimos";
+  text-align: center;
+  margin: auto auto 15px auto;
+  color: #f47ab6;
+  font-size: 30px;
+  line-height: 2px;
+}
+
+@media (min-width: 768px) {
+  .titleS, .titleSqueeze, .titleIvite, .titleShirt, .titlePlanner {
+    display: flex;
+    font-size: 43px;
+    line-height: 0px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .titleS, .titleSqueeze, .titleIvite, .titleShirt, .titlePlanner {
+    font-size: 80px;
+  }
+}
+
+.personalOne, .personalTwo {
+  font-family: "Arial", Helvetica, sans-serif;
+  color: #363636;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .personalOne, .personalTwo {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: -0.1px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .personalOne {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .textCanecaTwo {
+    line-height: 30px;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .textCanecaTwo {
+    line-height: 70px;
+    font-size: 40px;
+    margin: 50px 0 0 20px;
+  }
+}
+
+.mug, .gifts, .squeeze, .paperCard, .invite, .shirt, .mdf {
+  text-align: center;
+  margin: 30px 10px 30px 10px;
+  display: grid;
+  grid-template-areas: "one two" "three four" "five six";
+  grid-template-columns: 49.5% 49.5%;
+  grid-gap: 10px;
+}
+.mug p, .gifts p, .squeeze p, .paperCard p, .invite p, .shirt p, .mdf p {
+  font-weight: bold;
+  line-height: 20px;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .mug, .gifts, .squeeze, .paperCard, .invite, .shirt, .mdf {
+    margin: 40px 15px 40px 15px;
+    grid-template-columns: 32.3% 32.3% 32.3%;
+    grid-template-rows: 50% 50%;
+    font-size: 16px;
+  }
+  .mug p, .gifts p, .squeeze p, .paperCard p, .invite p, .shirt p, .mdf p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mug, .gifts, .squeeze, .paperCard, .invite, .shirt, .mdf {
+    margin: 0 80px 150px 80px;
+    grid-template-columns: 32.8% 32.8% 32.8%;
+    font-size: 35px;
+  }
+  .mug p, .gifts p, .squeeze p, .paperCard p, .invite p, .shirt p, .mdf p {
+    line-height: 30px;
+    font-size: 30px;
+  }
+}
+
+.card, .card2 {
+  background: #ffff;
+  box-shadow: #c0b5b5 4px 4px 8px, #a59d9d -4px -4px 8px;
+}
+
+.mugCer {
+  width: 120px;
+}
+
+@media (min-width: 768px) {
+  .mugCer {
+    width: 130px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mugCer {
+    width: 230px;
+    margin-bottom: 20px;
+  }
+}
+
+.mugJat, .giftMug, .cards, .badge, .champGlass, .ginGlass {
+  width: 90px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .mugJat {
+    margin: 30px 0 8px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mugJat, .candy, .calendar, .giftMug, .cards, .keychain, .badge, .souvenir, .longDrink, .partySupp, .champGlass, .ginGlass, .cupString, .maternSouvenir {
+    width: 180px;
+    margin: 20px 0 23px 0;
+  }
+}
+
+.mugAcri {
+  width: 115px;
+  margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .mugAcri {
+    width: 125px;
+    margin: 23px 0 15px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mugAcri, .calendar {
+    width: 230px;
+    margin-top: 23px;
+  }
+}
+
+.mugAlum {
+  width: 120px;
+}
+
+@media (min-width: 768px) {
+  .mugAlum {
+    width: 130px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mugAlum {
+    width: 230px;
+    margin-bottom: 22px;
+  }
+}
+
+.mugPolim {
+  width: 98px;
+  padding: 20px 0 5px 0;
+}
+
+@media (min-width: 768px) {
+  .mugPolim {
+    padding: 30px 0 15px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mugPolim {
+    width: 180px;
+    padding: 40px 0 25px 0;
+  }
+}
+
+.mugTerm {
+  width: 100px;
+}
+
+@media (min-width: 1600px) {
+  .mugTerm {
+    width: 180px;
+    margin-bottom: 10px;
+  }
+}
+
+.giftImg {
+  width: 100px !important;
+  padding: 10px !important;
+}
+
+@media (min-width: 768px) {
+  .giftImg {
+    width: 150px !important;
+    padding: 10px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .giftImg {
+    width: 400px !important;
+    padding: 20px 10px 10px 40px !important;
+  }
+}
+
+.gifts {
+  grid-template-areas: "one2 two2" "three2 four2" "five2 six2" "seven2 eight2" "nine2 ten2" "eleven2 twelve2" "thirteen2 fourteen2";
+}
+.gifts p {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .gifts {
+    grid-template-areas: "one2 two2 three2" "four2 five2 six2" "seven2 eight2 nine2" "ten2 eleven2 twelve2" "thirteen2 fourteen2 .";
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .gifts p {
+    padding: 50px;
+  }
+}
+
+.bucket {
+  width: 115px;
+}
+
+@media (min-width: 768px) {
+  .bucket {
+    width: 130px;
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .bucket {
+    width: 250px;
+    margin: 20px 0 0 0;
+  }
+}
+
+.candy {
+  margin-top: 20px;
+  width: 110px;
+}
+
+@media (min-width: 768px) {
+  .candy {
+    width: 140px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .candy {
+    width: 290px;
+    margin: 40px 0 45px 0;
+  }
+}
+
+.calendar {
+  width: 135px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .calendar {
+    width: 170px;
+    margin: 20px 0 30px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .calendar {
+    width: 340px;
+    margin: 40px 0 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .giftMug {
+    width: 130px;
+    margin: 15px 0 15px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .giftMug {
+    width: 240px;
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .cards {
+    width: 110px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .cards {
+    width: 220px;
+    margin: 0;
+  }
+}
+
+.keychain {
+  width: 115px;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .keychain {
+    width: 130px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .keychain {
+    width: 240px;
+    margin-bottom: 1px;
+  }
+}
+
+@media (min-width: 768px) {
+  .badge {
+    margin: 10px 0 0 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .badge {
+    width: 140px;
+    margin-bottom: 7px;
+  }
+}
+
+.souvenir {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .souvenir {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .souvenir {
+    width: 210px;
+    margin: 5px 0 5px 0;
+  }
+}
+
+.longDrink {
+  width: 110px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .longDrink {
+    width: 160px;
+    margin: 10px 0 0 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .longDrink {
+    width: 260px;
+  }
+}
+
+.partySupp {
+  width: 100px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .partySupp {
+    width: 140px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .partySupp {
+    width: 240px;
+  }
+}
+
+@media (min-width: 768px) {
+  .champGlass {
+    width: 130px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .champGlass {
+    width: 230px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ginGlass {
+    width: 120px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .ginGlass {
+    width: 220px;
+    margin-bottom: 0;
+  }
+}
+
+.cupString {
+  width: 100px;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .cupString {
+    width: 130px;
+    margin: 20px 0 10px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .cupString {
+    width: 230px;
+    margin: 30px 0 10px 0;
+  }
+}
+
+.maternSouvenir {
+  width: 100px;
+  margin-top: 1px;
+}
+
+@media (min-width: 768px) {
+  .maternSouvenir {
+    width: 130px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .maternSouvenir {
+    width: 230px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sectionSqueeze {
+    margin-top: 120px;
+  }
+}
+
+.backFirst1 img {
+  width: 95px;
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .backFirst1 img {
+    width: 140px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .backFirst1 img {
+    width: 370px;
+    padding-left: 52px;
+  }
+}
+
+@media (min-width: 768px) {
+  .titleSqueeze {
+    margin-top: 30px;
+    display: block;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .titleSqueeze {
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .squeeze p {
+    padding: 50px;
+  }
+}
+
+.alumSqueeze {
+  width: 120px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .alumSqueeze {
+    width: 130px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .alumSqueeze {
+    width: 220px;
+  }
+}
+
+.towelSqueeze {
+  width: 120px;
+}
+
+@media (min-width: 768px) {
+  .towelSqueeze {
+    width: 130px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .towelSqueeze {
+    width: 220px;
+  }
+}
+
+.thermosBottle {
+  width: 120px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .thermosBottle {
+    width: 127px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .thermosBottle {
+    width: 216px;
+  }
+}
+
+.acquaSqueeze {
+  width: 110px;
+  margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .acquaSqueeze {
+    width: 125px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .acquaSqueeze {
+    width: 210px;
+    margin-top: 10px;
+  }
+}
+
+.scholarSqueeze {
+  width: 110px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .scholarSqueeze {
+    width: 125px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .scholarSqueeze {
+    width: 220px;
+  }
+}
+
+.backFirst2 img {
+  width: 105px;
+}
+
+@media (min-width: 768px) {
+  .backFirst2 img {
+    width: 160px;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .backFirst2 img {
+    width: 350px;
+    padding-left: 68px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .paperCard p {
+    padding: 30px;
+  }
+}
+
+.inviteCard, .birthBox, .stickerCard, .birthItens, .cakeTop, .birthSouvenir {
+  width: 110px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .inviteCard, .birthBox, .stickerCard, .birthItens, .cakeTop, .birthSouvenir {
+    width: 130px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inviteCard, .birthBox, .stickerCard, .birthItens, .cakeTop, .birthSouvenir {
+    width: 230px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inviteCard {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .birthBox {
+    width: 240px;
+  }
+}
+
+@media (min-width: 768px) {
+  .stickerCard {
+    margin: 15px 0 10px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .stickerCard {
+    margin: 40px 0 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .birthItens {
+    margin: 20px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .cakeTop {
+    margin: 17px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .birthSouvenir {
+    margin: 20px 0 13px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .birthItens, .cakeTop, .birthSouvenir {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .invite p {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .titleIvite {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .titleIvite {
+    margin-top: 30px;
+  }
+}
+
+.backFirst3 img {
+  width: 90px;
+  padding: 20px 0 0 22px;
+}
+
+@media (min-width: 768px) {
+  .backFirst3 img {
+    width: 150px;
+    padding: 24px 0 0 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .backFirst3 {
+    margin-top: 0;
+  }
+  .backFirst3 img {
+    width: 320px;
+    padding: 78px 0 0 94px;
+  }
+}
+
+.inviteBox, .inviteGlass, .inviteMug, .inviteCardd, .inviteTile {
+  width: 120px;
+}
+
+.inviteBox {
+  width: 130px;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .inviteBox {
+    width: 150px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inviteBox {
+    width: 280px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .inviteGlass {
+    width: 140px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inviteGlass {
+    width: 220px;
+    margin-top: 20px;
+  }
+}
+
+.inviteMug {
+  width: 100px;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .inviteMug {
+    width: 140px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inviteMug {
+    width: 210px;
+    margin-top: 43px;
+  }
+}
+
+@media (min-width: 768px) {
+  .inviteCardd {
+    width: 140px;
+    margin: 20px 0 10px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inviteCardd {
+    width: 265px;
+  }
+}
+
+.inviteTile {
+  width: 110px;
+}
+
+@media (min-width: 768px) {
+  .inviteTile {
+    width: 120px;
+    margin: 20px 0 10px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inviteTile {
+    width: 220px;
+  }
+}
+
+.backFirst4 img {
+  width: 115px;
+  padding: 10px 0 0 12px;
+}
+
+@media (min-width: 768px) {
+  .backFirst4 {
+    width: 215px;
+    height: 215px;
+  }
+  .backFirst4 img {
+    width: 187px;
+    padding-right: 5px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .backFirst4 {
+    width: 500px;
+    height: 500px;
+  }
+  .backFirst4 img {
+    width: 390px;
+    padding: 45px 0 0 52px;
+  }
+}
+
+@media (min-width: 768px) {
+  .titleShirt {
+    display: block;
+    line-height: 40px;
+  }
+}
+
+.shirtBody, .shirtCushion, .shirtTribute, .shirtDaddy, .shirtUniform, .shirtTowel {
+  width: 120px;
+}
+
+@media (min-width: 768px) {
+  .shirtBody, .shirtCushion, .shirtTribute, .shirtDaddy, .shirtUniform, .shirtTowel {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .shirtBody, .shirtCushion, .shirtTribute, .shirtDaddy, .shirtUniform, .shirtTowel {
+    width: 220px;
+  }
+}
+
+.shirtCushion {
+  width: 130px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .shirtCushion {
+    width: 170px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .shirtCushion {
+    width: 260px;
+    margin-top: 15px;
+  }
+}
+
+.shirtTribute {
+  width: 130px;
+  margin-top: 14px;
+}
+
+@media (min-width: 768px) {
+  .shirtTribute {
+    width: 170px;
+    margin-bottom: 7px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .shirtTribute {
+    width: 250px;
+  }
+}
+
+.shirtDaddy, .shirtUniform {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .shirtDaddy {
+    margin: 20px 0 7px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .shirtTowel {
+    margin-bottom: 9px;
+  }
+}
+
+.backFirst5 img {
+  width: 120px;
+  padding: 25px 0 0 8px;
+}
+
+@media (min-width: 768px) {
+  .backFirst5 img {
+    width: 190px;
+    padding: 35px 0 0 8px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .backFirst5 img {
+    width: 400px;
+    padding: 95px 0 0 48px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .personalTwo {
+    margin-left: 20px;
+    font-size: 60px;
+  }
+}
+
+.mdfBox, .mdfPhone, .mdfPuzzle, .mdfPaint {
+  width: 130px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .mdfBox, .mdfPhone, .mdfPuzzle, .mdfPaint {
+    width: 190px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mdfBox, .mdfPhone, .mdfPuzzle, .mdfPaint {
+    width: 310px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mdf p {
+    padding: 5px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mdf p {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .puzzle {
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mdfPuzzle {
+    width: 175px;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mdfPuzzle {
+    width: 260px;
+    margin-top: 15px;
+  }
+}
+
+.mdfPaint {
+  width: 100px;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .mdfPaint {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mdfPaint {
+    width: 190px;
+  }
+}
+
+.backFirst6 img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .backFirst6 {
+    width: 210px;
+    height: 210px;
+  }
+  .backFirst6 img {
+    width: 200px;
+    padding: 11px 15px 0 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .backFirst6 {
+    width: 500px;
+    height: 500px;
+  }
+  .backFirst6 img {
+    width: 420px;
+    margin: 50px 0 0 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .titlePlanner {
+    display: block;
+    line-height: 40px;
+  }
+}
+
+.slidePlanner {
+  display: grid;
+  grid-template-areas: "one4" "two4" "three4";
+  grid-template-columns: 100%;
+  grid-gap: 10px;
+  margin: 30px 10px 30px 10px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .slidePlanner {
+    display: grid;
+    grid-template-areas: "one4 two4 three4";
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-gap: 15px;
+    margin: 40px 25px 40px 15px;
+  }
+}
+
+.slideshow-container, .slideshow-container2, .slideshow-container3 {
+  text-align: center;
+  align-items: center;
+}
+.slideshow-container img, .slideshow-container2 img, .slideshow-container3 img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  align-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .slideshow-container img, .slideshow-container2 img, .slideshow-container3 img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .slideshow-container img, .slideshow-container2 img, .slideshow-container3 img {
+    width: 330px;
+    height: 330px;
+  }
+}
+
+.mySlides {
+  display: none;
+}
+
+.card2 {
+  box-shadow: #a59d9d -4px -4px 8px;
+}
+
+@media (min-width: 768px) {
+  .slideOne {
+    margin-top: 15px;
+    width: 210px !important;
+    height: 206px !important;
+  }
+}
+
+.prevNext {
+  position: relative;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -162px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  color: #f47ab6;
+  left: 2px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  color: #f47ab6;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(183, 175, 175, 0.8);
+}
+
+.text, .text3 {
+  font-size: 15px;
+  padding: 8px 12px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.numbertext {
+  font-size: 12px;
+  padding: 0 12px;
+  text-align: left;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 10px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #f47ab6;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.dotSlide {
+  text-align: center;
+}
+
+.dot2, .dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 10px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.scheduleSlide {
+  width: 170px !important;
+}
+
+@media (min-width: 768px) {
+  .scheduleSlide {
+    width: 210px !important;
+  }
+}
+
+.dot3 {
+  margin: 0;
+}
+
+.active2, .dot3:hover {
+  background-color: #f47ab6;
+}
